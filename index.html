@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>병용금기 확인</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+      }
+      input {
+        width: 200px;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        border: 1px solid #ccc;
+        max-width: 200px;
+      }
+      li {
+        padding: 5px;
+        cursor: pointer;
+      }
+      li:hover {
+        background-color: #eee;
+      }
+      #result {
+        margin-top: 10px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>병용금기 확인</h2>
+    <div>
+      <label>첫 번째 약:</label><br />
+      <input id="drug1" placeholder="약 이름 입력" autocomplete="off" />
+      <ul id="suggestions1"></ul>
+    </div>
+    <div>
+      <label>두 번째 약:</label><br />
+      <input id="drug2" placeholder="약 이름 입력" autocomplete="off" />
+      <ul id="suggestions2"></ul>
+    </div>
+    <button id="check-btn">확인</button>
+    <div id="result"></div>
+
+    <script src="coampareMedicine.js"></script>
+  </body>
+</html>
