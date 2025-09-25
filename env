@@ -1,4 +1,4 @@
-; DUR 품목 관리 관련 ; 책 API 키
+; DUR 품목 관리 관련 
 API_KEY = "42ab87c17fa42e9aac46acc2fb9fc72d1a4e8fc854442c27d03f11fa2964a71e";
 
 ; 책 API  (추가 예정)
